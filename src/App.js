@@ -33,6 +33,8 @@ function App() {
   }
   useEffect(() => {
     getApiData()
+    setAddItemBtn(true)
+
   }, [])
   function itemAdded() {
     // addProduct()

@@ -1,8 +1,8 @@
 import { HeartIcon } from '@heroicons/react/24/outline'
-import React, { useRef, useState, useContext } from 'react'
+import React, { useRef, useContext } from 'react'
 import { DataContext } from '../../App'
 const ProductDetail = () => {
-    const { productDetail, addItemBtn, addProduct } = useContext(DataContext)
+    const { productDetail } = useContext(DataContext)
     const heart = useRef(null)
     function addFavorite() {
         heart.current.classList.toggle('addFavorite')
