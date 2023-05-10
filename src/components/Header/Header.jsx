@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import "../../App.css"
 import { BsBag } from "react-icons/bs";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";

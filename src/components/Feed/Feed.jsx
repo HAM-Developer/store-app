@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext } from 'react'
 import Product from '../Product/Product'
 import Input from './Input'
-import axios from 'axios';
 import { DataContext } from '../../App'
 const Feed = () => {
     const { feedProduct } = useContext(DataContext)
